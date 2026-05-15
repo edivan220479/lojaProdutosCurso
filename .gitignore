@@ -1,0 +1,56 @@
+## .gitignore para projetos .NET / Visual Studio
+
+# Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+out/
+artifacts/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET / Razor / app settings
+appsettings*.Development.json
+appsettings*.Local.json
+secrets.json
+
+# Publish outputs
+publish/
+*.Publish.xml
+
+# Rider
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# SQL Server
+*.mdf
+*.ldf
+
+# Logs
+*.log
+
+# Node / front-end
+node_modules/
+bower_components/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Index files (protege .vs index específico que causou erro)
+*.vsidx
