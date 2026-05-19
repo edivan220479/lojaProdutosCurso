@@ -32,3 +32,4 @@ C:\Users\ServLigth\source\repos\lojaProdutosCurso\lojaProdutosCurso\obj\Debug\ne
 C:\Users\ServLigth\source\repos\lojaProdutosCurso\lojaProdutosCurso\obj\Debug\net8.0\lojaProdutosCurso.pdb
 C:\Users\ServLigth\source\repos\lojaProdutosCurso\lojaProdutosCurso\obj\Debug\net8.0\lojaProdutosCurso.genruntimeconfig.cache
 C:\Users\ServLigth\source\repos\lojaProdutosCurso\lojaProdutosCurso\obj\Debug\net8.0\ref\lojaProdutosCurso.dll
+C:\Users\ServLigth\source\repos\lojaProdutosCurso\lojaProdutosCurso\obj\Debug\net8.0\lojaProdutosCurso.sourcelink.json
