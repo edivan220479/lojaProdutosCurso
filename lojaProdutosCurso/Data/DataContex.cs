@@ -1,6 +1,11 @@
-﻿namespace lojaProdutosCurso.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace lojaProdutosCurso.Data
 {
-    public class DataContex
+    public class DataContext : DbContext    
     {
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
+        {
+        }
     }
 }
