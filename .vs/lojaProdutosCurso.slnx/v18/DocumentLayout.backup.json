@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\models\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\models\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\data\\datacontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\data\\datacontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\migrations\\20260520191659_adicionandotabelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\migrations\\20260520191659_adicionandotabelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +46,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "DataContex.cs",
+              "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Data\\DataContex.cs",
+              "RelativeDocumentMoniker": "lojaProdutosCurso\\Data\\DataContex.cs",
+              "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Data\\DataContex.cs",
+              "RelativeToolTip": "lojaProdutosCurso\\Data\\DataContex.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T12:00:49.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoModel.cs",
+              "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Models\\ProdutoModel.cs",
+              "RelativeDocumentMoniker": "lojaProdutosCurso\\Models\\ProdutoModel.cs",
+              "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Models\\ProdutoModel.cs",
+              "RelativeToolTip": "lojaProdutosCurso\\Models\\ProdutoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:08:12.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaModel.cs",
+              "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Models\\CategoriaModel.cs",
+              "RelativeDocumentMoniker": "lojaProdutosCurso\\Models\\CategoriaModel.cs",
+              "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Models\\CategoriaModel.cs",
+              "RelativeToolTip": "lojaProdutosCurso\\Models\\CategoriaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:03:20.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "lojaProdutosCurso\\Views\\Home\\Index.cshtml",
@@ -42,25 +90,11 @@
               "RelativeToolTip": "lojaProdutosCurso\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-19T20:06:04.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T20:06:04.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataContex.cs",
-              "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Data\\DataContex.cs",
-              "RelativeDocumentMoniker": "lojaProdutosCurso\\Data\\DataContex.cs",
-              "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Data\\DataContex.cs",
-              "RelativeToolTip": "lojaProdutosCurso\\Data\\DataContex.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T12:00:49.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "lojaProdutosCurso\\Controllers\\HomeController.cs",
@@ -70,6 +104,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T13:05:27.343Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260520191659_AdicionandoTabelas.cs",
+              "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Migrations\\20260520191659_AdicionandoTabelas.cs",
+              "RelativeDocumentMoniker": "lojaProdutosCurso\\Migrations\\20260520191659_AdicionandoTabelas.cs",
+              "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Migrations\\20260520191659_AdicionandoTabelas.cs",
+              "RelativeToolTip": "lojaProdutosCurso\\Migrations\\20260520191659_AdicionandoTabelas.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwDcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T19:17:00.137Z"
             }
           ]
         }

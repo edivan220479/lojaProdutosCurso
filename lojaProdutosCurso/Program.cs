@@ -1,4 +1,5 @@
 using lojaProdutosCurso.Data;
+using lojaProdutosCurso.Services.Produto;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,9 @@ IServiceCollection serviceCollection = builder.Services.AddDbContext<DataContext
 { 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddScoped<IProdutoInterface, ProdutoService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
