@@ -1,4 +1,5 @@
 using lojaProdutosCurso.Data;
+using lojaProdutosCurso.Services.Categoria;
 using lojaProdutosCurso.Services.Produto;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,6 +14,8 @@ IServiceCollection serviceCollection = builder.Services.AddDbContext<DataContext
 });
 
 builder.Services.AddScoped<IProdutoInterface, ProdutoService>();
+builder.Services.AddScoped<ICategoriaInterface, CategoriaService>();
+
 
 var app = builder.Build();
 
