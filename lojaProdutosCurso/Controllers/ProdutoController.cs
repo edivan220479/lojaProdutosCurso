@@ -1,12 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using lojaProdutosCurso.Services.Produto;
+using Microsoft.AspNetCore.Mvc;
 
 namespace lojaProdutosCurso.Controllers
 {
     public class ProdutoController : Controller
     {
-        public IActionResult Index()
+        // Injeção de dependência do serviço de produto
+        private readonly IProdutoInterface _produtoInterface;
+        public ProdutoController(IProdutoInterface produtoInterface)
         {
-            return View();
+            _produtoInterface = produtoInterface;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var produtos = await _produtoInterface.BuscarProdutos();
+            return View(produtos);
         }
     }
 }
