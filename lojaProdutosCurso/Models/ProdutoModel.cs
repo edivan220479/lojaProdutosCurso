@@ -4,18 +4,18 @@ namespace lojaProdutosCurso.Models
 {
     public class ProdutoModel
     {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public string Marca { get; set; } 
-        public string Foto { get; set; }
-        public double Valor { get; set; }
+        public int Id { get; set; } 
+        public string Nome { get; set; } = string.Empty;
+        public string Marca { get; set; } = string.Empty;
+        public string Foto { get; set; } = string.Empty;
+        public double Valor { get; set; } 
         public int QuantidadeEstoque { get; set; }
         // Chave estrangeira para CategoriaModel
-        public int CategoriaModelId { get; set; }
+        public int CategoriaModelId { get; set; } 
         // Propriedade de navegação para CategoriaModel
         [ValidateNever]
         // Atributo para evitar validação durante a model binding
-        public CategoriaModel Categoria { get; set; }
+        public CategoriaModel Categoria { get; set; } 
 
     }
 }

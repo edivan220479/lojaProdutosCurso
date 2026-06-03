@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lojaProdutosCurso")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22422b40277ce9ea7dccdcaa3f943dd7790a0f80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9623169fe3118bee3d5208c47c18f2e0fc992ba0")]
 [assembly: System.Reflection.AssemblyProductAttribute("lojaProdutosCurso")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lojaProdutosCurso")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

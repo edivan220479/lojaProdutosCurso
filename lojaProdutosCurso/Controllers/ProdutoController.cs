@@ -1,4 +1,5 @@
-﻿using lojaProdutosCurso.Services.Categoria;
+﻿using lojaProdutosCurso.Dto.Produto;
+using lojaProdutosCurso.Services.Categoria;
 using lojaProdutosCurso.Services.Produto;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,5 +28,12 @@ namespace lojaProdutosCurso.Controllers
             ViewBag.Categorias = await _categoriaInterface.BuscarCategorias();
             return View();
         }
+        // Método para processar o formulário de cadastro de produto
+        [HttpPost]
+        public async Task<IActionResult>Cadastrar(CriarProdutoDto criarProdutoDto, IFormFile foto)
+            {
+            return View();
+        }
     }
 }
+

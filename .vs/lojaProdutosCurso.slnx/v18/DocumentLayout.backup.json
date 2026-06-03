@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\views\\produto\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\views\\produto\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\dto\\produto\\criarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\dto\\produto\\criarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,32 +43,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Views\\Produto\\Index.cshtml",
-              "RelativeDocumentMoniker": "lojaProdutosCurso\\Views\\Produto\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Views\\Produto\\Index.cshtml",
-              "RelativeToolTip": "lojaProdutosCurso\\Views\\Produto\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-28T13:15:57.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Views\\Produto\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "lojaProdutosCurso\\Views\\Produto\\Cadastrar.cshtml",
               "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Views\\Produto\\Cadastrar.cshtml",
               "RelativeToolTip": "lojaProdutosCurso\\Views\\Produto\\Cadastrar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-28T12:24:51.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CriarProdutoDto.cs",
+              "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Dto\\Produto\\CriarProdutoDto.cs",
+              "RelativeDocumentMoniker": "lojaProdutosCurso\\Dto\\Produto\\CriarProdutoDto.cs",
+              "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Dto\\Produto\\CriarProdutoDto.cs",
+              "RelativeToolTip": "lojaProdutosCurso\\Dto\\Produto\\CriarProdutoDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:23:13.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ProdutoModel.cs",
+              "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Models\\ProdutoModel.cs",
+              "RelativeDocumentMoniker": "lojaProdutosCurso\\Models\\ProdutoModel.cs",
+              "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Models\\ProdutoModel.cs",
+              "RelativeToolTip": "lojaProdutosCurso\\Models\\ProdutoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:27:16.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Views\\Produto\\Index.cshtml",
+              "RelativeDocumentMoniker": "lojaProdutosCurso\\Views\\Produto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Views\\Produto\\Index.cshtml",
+              "RelativeToolTip": "lojaProdutosCurso\\Views\\Produto\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T13:15:57.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "lojaProdutosCurso\\Controllers\\ProdutoController.cs",
@@ -68,8 +102,7 @@
               "RelativeToolTip": "lojaProdutosCurso\\Controllers\\ProdutoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T11:32:22.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T11:32:22.074Z"
             }
           ]
         }
