@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\services\\produto\\iprodutointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\services\\produto\\iprodutointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\services\\produto\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\services\\produto\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|c:\\users\\servligth\\source\\repos\\lojaprodutoscurso\\lojaprodutoscurso\\services\\produto\\iprodutointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21649AEB-A8CD-1282-5399-C316DB3DB2E6}|lojaProdutosCurso\\lojaProdutosCurso.csproj|solutionrelative:lojaprodutoscurso\\services\\produto\\iprodutointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProdutoService.cs",
               "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Services\\Produto\\ProdutoService.cs",
               "RelativeDocumentMoniker": "lojaProdutosCurso\\Services\\Produto\\ProdutoService.cs",
               "ToolTip": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Services\\Produto\\ProdutoService.cs",
               "RelativeToolTip": "lojaProdutosCurso\\Services\\Produto\\ProdutoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwCwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-03T11:55:43.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IProdutoInterface.cs",
               "DocumentMoniker": "C:\\Users\\ServLigth\\source\\repos\\lojaProdutosCurso\\lojaProdutosCurso\\Services\\Produto\\IProdutoInterface.cs",
               "RelativeDocumentMoniker": "lojaProdutosCurso\\Services\\Produto\\IProdutoInterface.cs",
@@ -51,8 +51,7 @@
               "RelativeToolTip": "lojaProdutosCurso\\Services\\Produto\\IProdutoInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T11:55:42.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T11:55:42.366Z"
             }
           ]
         }
