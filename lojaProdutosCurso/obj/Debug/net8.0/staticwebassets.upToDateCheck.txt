@@ -1,5 +1,8 @@
+wwwroot\css\Brite.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\imagem\logo.png.png220fbfdd-2b79-4c71-8f36-3604826a74e2.png
+wwwroot\imagem\logo.png3.jpg617120df-bd75-4fd9-9b29-b8dd22533106.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -58,4 +61,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\Brite.css

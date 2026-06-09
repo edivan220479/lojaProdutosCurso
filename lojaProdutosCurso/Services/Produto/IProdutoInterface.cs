@@ -8,5 +8,7 @@ namespace lojaProdutosCurso.Services.Produto
         Task<List<ProdutoModel>> BuscarProdutos();
         //metodo para cadastrar um produto, recebendo os dados do produto e a foto
         Task<ProdutoModel> Cadastrar(CriarProdutoDto criarProdutoDto, IFormFile foto);
+        // Método para buscar um produto por ID
+        Task<ProdutoModel> BuscarProdutoPorId(int id);
     }
 }

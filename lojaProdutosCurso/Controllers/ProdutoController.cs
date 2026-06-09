@@ -28,12 +28,43 @@ namespace lojaProdutosCurso.Controllers
             ViewBag.Categorias = await _categoriaInterface.BuscarCategorias();
             return View();
         }
+        // Método para exibir o formulário de edição de produto
+        public async Task<IActionResult> Editar(int id)
+        {
+            var produto = await _produtoInterface.BuscarProdutoPorId(id);
+
+            var editarProdutoDto = new EditarProdutoDto
+            {
+                Nome = produto.Nome,
+                Marca = produto.Marca,
+                Valor = produto.Valor,
+                QuantidadeEstoque = produto.QuantidadeEstoque,
+                CategoriaModelId = produto.CategoriaModelId
+            };
+
+            ViewBag.Categorias = await _categoriaInterface.BuscarCategorias();
+
+            return View(editarProdutoDto);
+        }
+
         // Método para processar o formulário de cadastro de produto
         [HttpPost]
-        public async Task<IActionResult>Cadastrar(CriarProdutoDto criarProdutoDto, IFormFile foto)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Cadastrar(CriarProdutoDto criarProdutoDto, IFormFile foto)
+        {
+            if (ModelState.IsValid)
             {
-            return View();
+                var produto = await _produtoInterface.Cadastrar(criarProdutoDto, foto);
+                return RedirectToAction("Index","Produto");
+            }
+            else 
+            {
+                ViewBag.Categorias = await _categoriaInterface.BuscarCategorias();
+                return View(criarProdutoDto);
+            }
+
         }
     }
 }
 
+                
