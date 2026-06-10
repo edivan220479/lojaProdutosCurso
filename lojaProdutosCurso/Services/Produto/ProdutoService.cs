@@ -30,7 +30,7 @@ namespace lojaProdutosCurso.Services.Produto
                 throw new Exception(ex.Message);
             }
         }
-
+        // Método para buscar todos os produtos, incluindo as categorias relacionadas
         public async Task<List<ProdutoModel>> BuscarProdutos()
         {
             try
@@ -42,7 +42,7 @@ namespace lojaProdutosCurso.Services.Produto
                 throw new Exception(ex.Message);
             }
         }
-
+        // Método para cadastrar um produto, recebendo os dados do produto e a foto
         public async Task<ProdutoModel> Cadastrar(CriarProdutoDto criarProdutoDto, IFormFile foto)
         {
             try
@@ -66,6 +66,43 @@ namespace lojaProdutosCurso.Services.Produto
                 throw new Exception(ex.Message);
             }
         }
+
+        // Método para editar um produto, recebendo os dados atualizados do produto e a nova foto
+        public async Task<ProdutoModel> Editar(EditarProdutoDto editarProdutoDto, IFormFile foto)
+        {
+            try
+            {
+                var produto = await BuscarProdutoPorId(editarProdutoDto.Id);
+                var nomeCaminhoImagem = "";
+                if(foto != null)
+                {
+                    string camonhoCapaExitente = _sistema + "\\imagem\\" + produto.Foto;
+                    if (File.Exists(camonhoCapaExitente))
+                    {
+                        File.Delete(camonhoCapaExitente);
+                    }
+                    nomeCaminhoImagem = GeraCaminhoArquivo(foto);
+                }
+                produto.Nome = editarProdutoDto.Nome;
+                produto.Marca = editarProdutoDto.Marca;
+                produto.Valor = editarProdutoDto.Valor;
+                produto.QuantidadeEstoque = editarProdutoDto.QuantidadeEstoque;
+                produto.CategoriaModelId = editarProdutoDto.CategoriaModelId;
+                
+                if(nomeCaminhoImagem != "")
+                {
+                    produto.Foto = nomeCaminhoImagem;
+                }
+                _context.Produtos.Update(produto);
+                await _context.SaveChangesAsync();
+                return produto;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }   
+        }
+
         // Método para gerar um caminho único para a imagem do produto
         private string GeraCaminhoArquivo(IFormFile foto)
         {

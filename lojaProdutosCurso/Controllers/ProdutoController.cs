@@ -64,6 +64,21 @@ namespace lojaProdutosCurso.Controllers
             }
 
         }
+        // Método para processar o formulário de edição de produto
+        [HttpPost]
+        public async Task<IActionResult> Editar(EditarProdutoDto editarProdutoDto, IFormFile? foto)
+        {
+            if (ModelState.IsValid)
+            {
+                var produto = await _produtoInterface.Editar(editarProdutoDto, foto);
+                return RedirectToAction("Index", "Produto");
+            }
+            else
+            {
+                ViewBag.Categorias = await _categoriaInterface.BuscarCategorias();
+                return View(editarProdutoDto);
+            }
+        }
     }
 }
 
