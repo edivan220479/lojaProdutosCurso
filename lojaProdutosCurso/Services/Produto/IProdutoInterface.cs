@@ -12,5 +12,7 @@ namespace lojaProdutosCurso.Services.Produto
         Task<ProdutoModel> BuscarProdutoPorId(int id);
         // Método para editar um produto, recebendo os dados atualizados do produto e a nova foto
         Task<ProdutoModel> Editar(EditarProdutoDto editarProdutoDto, IFormFile foto);
+        // Método para remover um produto por ID
+        Task<ProdutoModel> Remover(int id);
     }
 }

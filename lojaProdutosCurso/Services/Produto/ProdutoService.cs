@@ -103,6 +103,23 @@ namespace lojaProdutosCurso.Services.Produto
             }   
         }
 
+        // Método para remover um produto por ID
+        public async Task<ProdutoModel> Remover(int id)
+        {
+            try
+            {
+                var produto = await BuscarProdutoPorId(id);
+                _context.RemoveRange(produto);
+                await _context.SaveChangesAsync();
+                return produto;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
         // Método para gerar um caminho único para a imagem do produto
         private string GeraCaminhoArquivo(IFormFile foto)
         {

@@ -64,6 +64,14 @@ namespace lojaProdutosCurso.Controllers
             }
 
         }
+
+        // Método para remover um produto
+        public async Task<IActionResult> Remover(int id)
+        {
+            var produto = await _produtoInterface.Remover(id);
+            return RedirectToAction("Index", "Produto");
+        }
+
         // Método para processar o formulário de edição de produto
         [HttpPost]
         public async Task<IActionResult> Editar(EditarProdutoDto editarProdutoDto, IFormFile? foto)

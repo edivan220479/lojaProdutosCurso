@@ -1,8 +1,12 @@
 wwwroot\css\Brite.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\imagem\bmw.svg.png09757e1f-9557-467d-be0c-65c20c68ff6f.png
+wwwroot\imagem\logo.jpg66dfada2-5777-41b3-bb66-89a53d7f3c0c.png
 wwwroot\imagem\logo.png.png220fbfdd-2b79-4c71-8f36-3604826a74e2.png
-wwwroot\imagem\logo.png3.jpg617120df-bd75-4fd9-9b29-b8dd22533106.png
+wwwroot\imagem\logo.png.png6dedb7da-4e76-4486-9afc-e3402147deb0.png
+wwwroot\imagem\logo.png86eb29cd-0f9d-4c57-97ca-761f44cc257b.png
+wwwroot\imagem\logo01.png8c05a684-66d2-4d68-a4d1-ffdf783ef13d.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
